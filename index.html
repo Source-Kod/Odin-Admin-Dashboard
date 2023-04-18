@@ -8,14 +8,14 @@
   </head>
   <body class="flex">
     <!-- left side bar -->
-    <div class="flex flex-col items-center bg-blue-200 h-screen w-1/5">
+    <div class="flex flex-col items-center bg-sky-600 h-screen w-1/5">
       <!-- logo -->
-      <div class="flex font-bold text-2xl gap-3 mb-10">
+      <div class="flex font-bold text-2xl gap-3 mb-10 text-white">
         <img class="w-8" src="assets/svg/view-dashboard.svg" alt="">
         <h1>DashBoard</h1> 
       </div>
       <!-- top nav list -->
-      <div class="mb-10 font-bold text-lg">
+      <div class="mb-10 font-bold text-lg text-white">
        <ul>
          <li class="flex gap-3">
            <img class="w-5" src="assets/svg/home.svg" alt="">
@@ -43,8 +43,8 @@
          </li>
        </ul>
       </div>
-      <!-- top nav list -->
-      <div class="font-bold text-lg">
+      <!-- bottom nav list -->
+      <div class="font-bold text-lg text-white">
         <ul>
           <li class="flex gap-3">
             <img class="w-5" src="assets/svg/cog.svg" alt="">
@@ -64,26 +64,26 @@
     <!-- right side -->
     <div class="flex flex-col w-4/5">
       <!-- header -->
-      <div class="flex flex-col justify-between bg-gray-400 h-1/5">
+      <div class="flex flex-col justify-between bg-white h-1/5 pb-4 pt-4">
         <!-- header top -->
         <div class="flex justify-between">
           <div class="flex gap-4 ml-4">
             <img class="w-5" src="assets/svg/magnify.svg" alt="">
-            <input class="rounded-xl w-80" type="text" name="searchbar" value="">
+            <input class="rounded-xl w-80 bg-neutral-200" type="text" name="searchbar" value="">
           </div>
-          <div class="flex mr-4 gap-2 text-lg">
+          <div class="flex mr-4 gap-2 text-lg items-center">
             <img class="w-9" src="assets/svg/bell-ring.svg" alt="">
-            <img class="w-9" src="assets/png/icons8-circled-user-male-skin-type-1-and-2-64.png" alt="">
+            <img class="w-14" src="assets/png/icons8-circled-user-male-skin-type-1-and-2-64.png" alt="">
             <h1>Morgan Oakley</h1>
           </div>
         </div>
         <!-- header bottom -->
-        <div class="flex justify-between">
-          <div class="flex items-center">
-            <img src="assets/png/icons8-circled-user-male-skin-type-1-and-2-64.png" alt="">
+        <div class="flex justify-between ml-4 mr-4">
+          <div class="flex gap-4 items-center">
+            <img class="w-20" src="assets/png/icons8-circled-user-male-skin-type-1-and-2-64.png" alt="">
             <div class="flex flex-col">
-              <p>Hi there,</p>
-              <h2>Morgan Oakley (@morgan)</h2>
+              <p class="font-bold">Hi there,</p>
+              <h2 class="font-bold text-2xl">Morgan Oakley (@morgan)</h2>
             </div>
           </div>
           <div>
@@ -94,16 +94,61 @@
         </div>
       </div>
       <!-- right side content section -->
-      <div class="flex">
+      <div class="flex bg-neutral-200">
         <!-- left side of content section -->
         <div class="flex flex-col w-4/5">
           <h2>Your Project</h2>
           <!-- cards -->
-          <div class="grid grid-cols-2">
-            <div class="rounded-lg border-2 border-l-4 border-l-orange-400">
-              <h2>Super Cool Project</h2>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="rounded-lg border-2 border-l-4 border-l-orange-400 bg-white p-4">
+              <h2 class="text-lg font-bold">Super Cool Project</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie bibendum turpis, eu dapibus diam lacinia a. Praesent ac mi neque.</p>
-              <div class="flex justify-end">
+              <div class="flex justify-end gap-4 mt-4">
+                <img class="w-5" src="assets/svg/star-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/eye-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/share-variant.svg" alt="">
+              </div>
+            </div>
+            <div class="rounded-lg border-2 border-l-4 border-l-orange-400 bg-white p-4">
+              <h2 class="text-lg font-bold">Less Cool Project</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie bibendum turpis, eu dapibus diam lacinia a.</p>
+              <div class="flex justify-end gap-4 mt-4">
+                <img class="w-5" src="assets/svg/star-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/eye-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/share-variant.svg" alt="">
+              </div>
+            </div>
+            <div class="rounded-lg border-2 border-l-4 border-l-orange-400 bg-white p-4">
+              <h2 class="text-lg font-bold">Impossible App</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie bibendum turpis, eu dapibus diam lacinia a. Praesent ac mi neque.</p>
+              <div class="flex justify-end gap-4 mt-4">
+                <img class="w-5" src="assets/svg/star-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/eye-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/share-variant.svg" alt="">
+              </div>
+            </div>
+            <div class="rounded-lg border-2 border-l-4 border-l-orange-400 bg-white p-4">
+              <h2 class="text-lg font-bold">Easy Peasy App</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie bibendum turpis, eu dapibus diam lacinia a.</p>
+              <div class="flex justify-end gap-4 mt-4">
+                <img class="w-5" src="assets/svg/star-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/eye-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/share-variant.svg" alt="">
+              </div>
+            </div>
+            <div class="rounded-lg border-2 border-l-4 border-l-orange-400 bg-white p-4">
+              <h2 class="text-lg font-bold">Ad Blocker</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie bibendum turpis, eu dapibus diam lacinia a. Praesent ac mi neque.</p>
+              <div class="flex justify-end gap-4 mt-4">
+                <img class="w-5" src="assets/svg/star-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/eye-plus-outline.svg" alt="">
+                <img class="w-5" src="assets/svg/share-variant.svg" alt="">
+              </div>
+            </div>
+            <div class="rounded-lg border-2 border-l-4 border-l-orange-400 bg-white p-4">
+              <h2 class="text-lg font-bold">Money Maker</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse molestie bibendum turpis, eu dapibus diam lacinia a.</p>
+              <div class="flex justify-end gap-4 mt-4">
                 <img class="w-5" src="assets/svg/star-plus-outline.svg" alt="">
                 <img class="w-5" src="assets/svg/eye-plus-outline.svg" alt="">
                 <img class="w-5" src="assets/svg/share-variant.svg" alt="">
