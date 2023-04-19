@@ -552,6 +552,14 @@ video {
   height: 100vh;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-1\/5 {
   width: 20%;
 }
@@ -582,6 +590,10 @@ video {
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .grid-cols-2 {
@@ -778,8 +790,21 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-white {
